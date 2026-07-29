@@ -1458,7 +1458,19 @@ body.menu-open .mobile-drawer {
     }
     
     .cta-buttons {
-        align-items: flex-end;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .cta-buttons .btn {
+        width: 100%;
+        max-width: 320px;
+    }
+    
+    .cta-extra {
+        text-align: center;
+        width: 100%;
     }
     
     /* Footer layout */
