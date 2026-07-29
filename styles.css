@@ -1321,6 +1321,20 @@ body.menu-open .mobile-drawer {
     color: #515154;
 }
 
+.credit-line {
+    font-size: 10px;
+    color: #515154;
+}
+
+.credit-line a {
+    color: #86868b;
+    transition: color var(--transition-fast);
+}
+
+.credit-line a:hover {
+    color: #f5f5f7;
+}
+
 /* ==========================================================================
    FLOATING WHATSAPP BUTTON (Always Visible Right-Bottom)
    ========================================================================== */
