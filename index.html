@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Store | iPhones Nuevos Sellados & Plan Canje</title>
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="nav-container container">
+            <a href="#" class="logo">
+                <span>Device Store</span>
+            </a>
+            
+            <nav class="nav-menu">
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#accesorios" class="nav-link">Accesorios</a>
+                <a href="#operatoria" class="nav-link">Garantía & Pagos</a>
+                <a href="#showroom" class="nav-link">Showroom</a>
+                <a href="https://instagram.com/devicestore.ok" target="_blank" rel="noopener noreferrer" class="nav-instagram">
+                    <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                    <span>@devicestore.ok</span>
+                </a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/5491153472554?text=Hola%20Device%20Store,%20vengo%20de%20la%20web%20y%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener noreferrer" class="btn btn-nav">
+                    <span>Agendar Cita</span>
+                </a>
+            </div>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-menu-btn" aria-label="Abrir menú" onclick="document.body.classList.toggle('menu-open')">
+                <span class="bar bar-1"></span>
+                <span class="bar bar-2"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-drawer">
+        <nav class="drawer-menu">
+            <a href="#servicios" class="drawer-link" onclick="document.body.classList.remove('menu-open')">Servicios</a>
+            <a href="#accesorios" class="drawer-link" onclick="document.body.classList.remove('menu-open')">Accesorios</a>
+            <a href="#operatoria" class="drawer-link" onclick="document.body.classList.remove('menu-open')">Garantía & Pagos</a>
+            <a href="#showroom" class="drawer-link" onclick="document.body.classList.remove('menu-open')">Showroom</a>
+            <a href="https://instagram.com/devicestore.ok" target="_blank" rel="noopener noreferrer" class="drawer-link drawer-instagram" onclick="document.body.classList.remove('menu-open')">
+                <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                <span>@devicestore.ok</span>
+            </a>
+            <a href="https://wa.me/5491153472554?text=Hola%20Device%20Store,%20vengo%20de%20la%20web%20y%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-drawer" onclick="document.body.classList.remove('menu-open')">
+                <span>Agendar Cita</span>
+            </a>
+        </nav>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="badge">
+                        <span class="badge-dot"></span>
+                        <span class="badge-text">Showroom Privado en Devoto</span>
+                    </div>
+                    <h1 class="hero-title">El próximo paso de tu iPhone, <span class="gradient-text">con total confianza.</span></h1>
+                    <p class="hero-description">
+                        Especialistas en iPhones nuevos sellados y Plan Canje exclusivo. Viví una experiencia premium, segura y personalizada con atención individual bajo cita previa en nuestro showroom.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="https://wa.me/5491153472554?text=Hola%20Device%20Store,%20vengo%20de%20la%20web.%20Quiero%20consultar%20disponibilidad%20y%20precio%20para%20un%20iPhone%20%5BModelo%5D%20de%20%5BCapacidad%5D%20GB." target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                            </svg>
+                            <span>Ver iPhones Nuevos</span>
+                        </a>
+                        <a href="#servicios" class="btn btn-secondary">
+                            <span>Cotizar Plan Canje</span>
+                            <svg class="btn-icon-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="hero-trust">
+                        <div class="trust-item">
+                            <span class="trust-number">100%</span>
+                            <span class="trust-text">Calificaciones Positivas</span>
+                        </div>
+                        <div class="trust-divider"></div>
+                        <div class="trust-item">
+                            <span class="trust-number">1 Año</span>
+                            <span class="trust-text">Garantía Apple Oficial</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="phone-mock-container">
+                        <!-- CSS Premium iPhone Mockup -->
+                        <div class="phone-frame">
+                            <div class="phone-island"></div>
+                            <div class="phone-screen">
+                                <div class="screen-bg-gradient"></div>
+                                <div class="screen-content">
+                                    <div class="screen-header">
+                                        <span class="screen-logo">DS</span>
+                                        <span class="screen-status">Premium Store</span>
+                                    </div>
+                                    <div class="screen-card">
+                                        <span class="screen-card-tag">Destacado</span>
+                                        <h3 class="screen-card-title">iPhone 15 Pro</h3>
+                                        <p class="screen-card-subtitle">Titanio Natural</p>
+                                        <div class="screen-card-specs">
+                                            <span>Nuevo Sellado</span>
+                                            <span>•</span>
+                                            <span>Garantía Oficial</span>
+                                        </div>
+                                    </div>
+                                    <div class="screen-chat-bubble">
+                                        <div class="chat-avatar"></div>
+                                        <div class="chat-message">
+                                            <p class="chat-text">¿Cotizan mi iPhone 11?</p>
+                                            <span class="chat-time">Recibido</span>
+                                        </div>
+                                    </div>
+                                    <div class="screen-chat-bubble response">
+                                        <div class="chat-message response">
+                                            <p class="chat-text">¡Sí! Tomamos tu equipo en Plan Canje al mejor valor.</p>
+                                            <span class="chat-time">Enviado</span>
+                                        </div>
+                                        <div class="chat-avatar response">DS</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="phone-reflection"></div>
+                        </div>
+                        <!-- Decorative glow and details -->
+                        <div class="glow-orb"></div>
+                        <div class="floating-badge badge-1">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="f-icon">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                            <span>Compra 100% Segura</span>
+                        </div>
+                        <div class="floating-badge badge-2">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="f-icon">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                            </svg>
+                            <span>Plan Canje Agil</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="servicios" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nuestros Servicios Premium</h2>
+                    <p class="section-subtitle">Diseñado con precisión técnica y transiciones ágiles para ofrecerte la máxima comodidad.</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Card 1: iPhones Nuevos -->
+                    <div class="service-card">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <div class="service-icon-wrapper">
+                                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                                    <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                                </svg>
+                            </div>
+                            <h3 class="service-card-title">iPhones Nuevos Sellados</h3>
+                            <p class="service-card-description">
+                                Equipos de última generación completamente nuevos, en caja sellada de fábrica. Con la total transparencia que buscás al adquirir tecnología premium.
+                            </p>
+                            <ul class="service-bullets">
+                                <li>
+                                    <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    <span>Garantía Oficial Apple de 1 año</span>
+                                </li>
+                                <li>
+                                    <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    <span>Batería al 100% y accesorios de fábrica</span>
+                                </li>
+                                <li>
+                                    <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    <span>Asesoramiento y post-venta personalizada</span>
+                                </li>
+                            </ul>
+                            <div class="card-action">
+                                <a href="https://wa.me/5491153472554?text=Hola%20Device%20Store,%20vengo%20de%20la%20web.%20Quiero%20consultar%20disponibilidad%20y%20precio%20para%20un%20iPhone%20%5BModelo%5D%20de%20%5BCapacidad%5D%20GB." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full">
+                                    <span>Consultar Disponibilidad</span>
+                                    <svg class="btn-icon-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        <polyline points="12 5 19 12 12 19"></polyline>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Plan Canje -->
+                    <div class="service-card featured">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <div class="featured-badge">El más elegido</div>
+                            <div class="service-icon-wrapper">
+                                <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="17 1 21 5 17 9"></polyline>
+                                    <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+                                    <polyline points="7 23 3 19 7 15"></polyline>
+                                    <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
+                                </svg>
+                            </div>
+                            <h3 class="service-card-title">Plan Canje Exclusivo</h3>
+                            <p class="service-card-description">
+                                Entregá tu iPhone actual como parte de pago y accedé al modelo que querés. Tasación transparente, inmediata y en un entorno de seguridad absoluta.
+                            </p>
+                            <ul class="service-bullets">
+                                <li>
+                                    <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    <span>Cotización ágil, justa y real en minutos</span>
+                                </li>
+                                <li>
+                                    <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    <span>Traspaso de datos seguro en el showroom</span>
+                                </li>
+                                <li>
+                                    <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    <span>Tomamos modelos XS en adelante</span>
+                                </li>
+                            </ul>
+                            <div class="card-action">
+                                <a href="https://wa.me/5491153472554?text=Hola%20Device%20Store,%20vengo%20de%20la%20web.%20Quiero%20entregar%20mi%20equipo%20como%20parte%20de%20pago.%20Tengo%20un%20%5BModelo%5D%20con%20%5BCondici%C3%B3n%20de%20bater%C3%ADa%5D.%20%C2%BFMe%20pasan%20cotizaci%C3%B3n%3F" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full">
+                                    <span>Quiero Cotizar mi Equipo</span>
+                                    <svg class="btn-icon-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        <polyline points="12 5 19 12 12 19"></polyline>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Apple Accessories Section -->
+        <section id="accesorios" class="accessories-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Complementos Originales</span>
+                    <h2 class="section-title">Accesorios Apple & Protección Premium</h2>
+                    <p class="section-subtitle">Mantené tu equipo protegido y disfrutá del ecosistema completo con productos de alta calidad comprobada.</p>
+                </div>
+
+                <div class="accessories-grid">
+                    <!-- Card 1: Fundas MagSafe & Silicon Case -->
+                    <div class="accessory-card">
+                        <div class="accessory-badge">Más Pedidas</div>
+                        <div class="accessory-icon-wrapper">
+                            <svg class="accessory-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="5" y="2" width="14" height="20" rx="3" ry="3"></rect>
+                                <circle cx="12" cy="11" r="3.5"></circle>
+                                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                            </svg>
+                        </div>
+                        <h3 class="accessory-card-title">Fundas MagSafe & Silicon Case</h3>
+                        <p class="accessory-card-description">
+                            Fundas Transparentes con acoplamiento magnético MagSafe perfecto y Silicon Case de textura suave con interior de microfibra.
+                        </p>
+                        <ul class="accessory-bullets">
+                            <li>
+                                <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Anillo magnético MagSafe ultra resistente</span>
+                            </li>
+                            <li>
+                                <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Protección anti-caídas y bordes elevados</span>
+                            </li>
+                            <li>
+                                <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Variedad de colores oficiales disponibles</span>
+                            </li>
+                        </ul>
+                        <div class="accessory-action">
+                            <a href="https://wa.me/5491153472554?text=Hola%20Device%20Store,%20vengo%20de%20la%20web.%20Quiero%20consultar%20fundas%20MagSafe%20/%20Silicon%20Case%20para%20un%20iPhone%20%5BModelo%5D." target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-full">
+                                <span>Consultar Fundas</span>
+                                <svg class="btn-icon-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: AirPods -->
+                    <div class="accessory-card">
+                        <div class="accessory-badge">Audio High-End</div>
+                        <div class="accessory-icon-wrapper">
+                            <svg class="accessory-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                                <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3z"></path>
+                                <path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="accessory-card-title">AirPods (Standard, Pro & Max)</h3>
+                        <p class="accessory-card-description">
+                            Sumergite en tu música con Cancelación Activa de Ruido, Audio Espacial personalizado y estuche MagSafe USB-C.
+                        </p>
+                        <ul class="accessory-bullets">
+                            <li>
+                                <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Cancelación Activa de Ruido & Transparencia</span>
+                            </li>
+                            <li>
+                                <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Emparejamiento instantáneo en un toque</span>
+                            </li>
+                            <li>
+                                <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Estuche de carga MagSafe USB-C</span>
+                            </li>
+                        </ul>
+                        <div class="accessory-action">
+                            <a href="https://wa.me/5491153472554?text=Hola%20Device%20Store,%20vengo%20de%20la%20web.%20Quiero%20consultar%20modelos%20y%20precios%20de%20AirPods." target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-full">
+                                <span>Consultar AirPods</span>
+                                <svg class="btn-icon-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Cargador 20W USB-C -->
+                    <div class="accessory-card">
+                        <div class="accessory-badge">Imprescindible</div>
+                        <div class="accessory-icon-wrapper">
+                            <svg class="accessory-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                            </svg>
+                        </div>
+                        <h3 class="accessory-card-title">Cargador Rápido 20W USB-C</h3>
+                        <p class="accessory-card-description">
+                            Adaptador de corriente USB-C de 20W oficial. Carga eficiente, rápida y óptima en cualquier lugar.
+                        </p>
+                        <ul class="accessory-bullets">
+                            <li>
+                                <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Carga rápida: 50% en 30 minutos</span>
+                            </li>
+                            <li>
+                                <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Protección avanzada de salud de batería</span>
+                            </li>
+                            <li>
+                                <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Compatibilidad universal con iPhone & iPad</span>
+                            </li>
+                        </ul>
+                        <div class="accessory-action">
+                            <a href="https://wa.me/5491153472554?text=Hola%20Device%20Store,%20vengo%20de%20la%20web.%20Quiero%20comprar%20un%20Cargador%2020W%20USB-C." target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-full">
+                                <span>Pedir Cargador 20W</span>
+                                <svg class="btn-icon-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Cables USB-C & Lightning -->
+                    <div class="accessory-card">
+                        <div class="accessory-badge">Alta Durabilidad</div>
+                        <div class="accessory-icon-wrapper">
+                            <svg class="accessory-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </div>
+                        <h3 class="accessory-card-title">Cables USB-C / Lightning</h3>
+                        <p class="accessory-card-description">
+                            Cables de carga rápida y transferencia de datos. Disponibles en versiones clásicas y trenzadas reforzadas.
+                        </p>
+                        <ul class="accessory-bullets">
+                            <li>
+                                <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Modelos USB-C a USB-C y USB-C a Lightning</span>
+                            </li>
+                            <li>
+                                <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Longitud de 1m y 2m en caja original</span>
+                            </li>
+                            <li>
+                                <svg class="bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Construcción reforzada anti-enredos</span>
+                            </li>
+                        </ul>
+                        <div class="accessory-action">
+                            <a href="https://wa.me/5491153472554?text=Hola%20Device%20Store,%20vengo%20de%20la%20web.%20Quiero%20consultar%20cables%20originales%20USB-C%20/%20Lightning." target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-full">
+                                <span>Consultar Cables</span>
+                                <svg class="btn-icon-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Confianza & Operatoria Section -->
+        <section id="operatoria" class="trust-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Confianza & Operatoria Profesional</h2>
+                    <p class="section-subtitle">Pilares fundamentales que construyen la tranquilidad y el status de comprar con nosotros.</p>
+                </div>
+
+                <div class="trust-grid">
+                    <!-- Pillar 1: Showroom -->
+                    <div id="showroom" class="trust-card">
+                        <div class="trust-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <h3 class="trust-card-title">Showroom Privado</h3>
+                        <p class="trust-card-text">
+                            Ubicado en una zona residencial y de altísima seguridad en Devoto / Pueyrredón, CABA. Atendemos exclusivamente con cita programada para brindarte privacidad, confort y un trato totalmente personalizado.
+                        </p>
+                    </div>
+
+                    <!-- Pillar 2: Garantía -->
+                    <div class="trust-card">
+                        <div class="trust-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="trust-card-title">Garantía Oficial & Soporte</h3>
+                        <p class="trust-card-text">
+                            Todos nuestros iPhones nuevos cuentan con 1 año de Garantía Oficial de Apple. Pero no termina ahí: te ofrecemos el soporte técnico directo de Device Store y seguimiento personalizado post-compra ante cualquier consulta.
+                        </p>
+                    </div>
+
+                    <!-- Pillar 3: Medios de Pago -->
+                    <div class="trust-card">
+                        <div class="trust-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="12" x2="12" y2="12"></line>
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V6h16v12z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="trust-card-title">Medios de Pago Flexibles</h3>
+                        <p class="trust-card-text">
+                            Buscamos tu comodidad. Aceptamos Pesos en Efectivo o Transferencia bancaria (tomados a cotización de Dólar Blue), Dólares en efectivo y Criptomonedas de manera estable y directa utilizando USDT (red TRC-20 o BEP-20).
+                        </p>
+                    </div>
+
+                    <!-- Pillar 4: Reputación -->
+                    <div class="trust-card">
+                        <div class="trust-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="8" r="7"></circle>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="trust-card-title">Reputación Verificada</h3>
+                        <p class="trust-card-text">
+                            La satisfacción de nuestros clientes nos avala. Contamos con una sólida trayectoria en el mercado, reflejada en opiniones y valoraciones impecables en plataformas de referencia. Podés ver nuestras referencias haciendo click abajo.
+                        </p>
+                        <a href="#" class="trust-link">
+                            <span>Ver perfil de MercadoLibre</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="arrow-up-right">
+                                <line x1="7" y1="17" x2="17" y2="7"></line>
+                                <polyline points="7 7 17 7 17 17"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Callout Section -->
+        <section class="cta-callout">
+            <div class="container">
+                <div class="cta-box">
+                    <div class="cta-grid">
+                        <div class="cta-info">
+                            <span class="cta-tag">Atención 1 a 1</span>
+                            <h2 class="cta-title">¿Listo para renovar tu dispositivo?</h2>
+                            <p class="cta-text">Contactanos para consultar stock disponible del día, cotizar tu canje o coordinar un horario en nuestro showroom exclusivo de Devoto.</p>
+                        </div>
+                        <div class="cta-buttons">
+                            <a href="https://wa.me/5491153472554?text=Hola%20Device%20Store,%20vengo%20de%20la%20web%20y%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                                </svg>
+                                <span>Hablar con un Asesor</span>
+                            </a>
+                            <span class="cta-extra">Atención ágil • Respondemos en minutos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo footer-logo">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 20.5c4.694 0 8.5-3.806 8.5-8.5s-3.806-8.5-8.5-8.5S3.5 7.306 3.5 12s3.806 8.5 8.5 8.5z"></path>
+                        <path d="M12 16V12"></path>
+                        <path d="M12 8h.01"></path>
+                    </svg>
+                    <span>Device Store</span>
+                </a>
+                <p class="footer-bio">Especialistas en la marca líder mundial. Brindando seguridad, seriedad y asesoramiento personalizado de principio a fin en la renovación de tu iPhone.</p>
+                <div class="footer-socials">
+                    <a href="https://instagram.com/devicestore.ok" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4 class="footer-heading">Secciones</h4>
+                <ul>
+                    <li><a href="#servicios">iPhones Nuevos</a></li>
+                    <li><a href="#servicios">Plan Canje</a></li>
+                    <li><a href="#accesorios">Accesorios Apple</a></li>
+                    <li><a href="#operatoria">Garantía Oficial</a></li>
+                    <li><a href="#showroom">Showroom Privado</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4 class="footer-heading">Atención & Ubicación</h4>
+                <p class="contact-info-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <span>Showroom Privado en Villa Devoto, CABA</span>
+                </p>
+                <p class="contact-info-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span>Con cita previa únicamente</span>
+                </p>
+                <p class="contact-info-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    <span>WhatsApp: 1153472554</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p class="copyright">&copy; 2026 Device Store. Todos los derechos reservados. No afiliado directamente con Apple Inc.</p>
+                <p class="legal-disclaimer">Apple, iPhone y el logotipo de Apple son marcas registradas de Apple Inc.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/5491153472554?text=Hola%20Device%20Store,%20vengo%20de%20la%20web%20y%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Contacto por WhatsApp">
+        <span class="whatsapp-tooltip">¿Consultas? Escribinos</span>
+        <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+        <span class="whatsapp-ping"></span>
+    </a>
+
+</body>
+</html>
